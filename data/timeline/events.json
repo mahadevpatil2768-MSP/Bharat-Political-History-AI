@@ -1,0 +1,40 @@
+{
+  "_note": "Each event is shown only if evidence_quote is found in the indexed text of document_id (and on page, if given). Dates come from the cited document or its metadata.",
+  "events": [
+    {
+      "id": "1858-crown-assumes-government",
+      "date": "1858-11-01",
+      "title": "Queen's Proclamation: the Crown takes over the government of East India Company territories",
+      "description": "Proclamation delivered 1 November 1858 (date per the Wikisource page note).",
+      "document_id": "queens_proclamation_1858",
+      "evidence_quote": "to take upon ourselves the Government of the territories in India, heretofore administered in trust for us by the Honourable East India Company",
+      "periods": ["colonial"]
+    },
+    {
+      "id": "1858-first-viceroy",
+      "date": "1858-11-01",
+      "title": "Viscount Canning appointed first Viceroy and Governor-General",
+      "document_id": "queens_proclamation_1858",
+      "evidence_quote": "Viscount Canning, to be our first Viceroy and Governor-General",
+      "periods": ["colonial"]
+    },
+    {
+      "id": "1949-constitution-adopted",
+      "date": "1949-11-26",
+      "title": "Constituent Assembly adopts the Constitution of India",
+      "description": "Date as stated in the Preamble.",
+      "document_id": "constitution_of_india_2024",
+      "evidence_quote": "this twenty-sixth day of November, 1949, do HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION",
+      "periods": ["1947_1977"]
+    },
+    {
+      "id": "1979-44th-amendment-art352",
+      "date": "1979-06-20",
+      "title": "44th Amendment changes the Article 352 emergency ground ('armed rebellion' substituted), in force 20-6-1979",
+      "description": "Per the footnote to Article 352 in the 2024 edition.",
+      "document_id": "constitution_of_india_2024",
+      "evidence_quote": "Subs. by the Constitution (Forty-fourth Amendment) Act, 1978, s. 37, for",
+      "periods": ["1977_1991"]
+    }
+  ]
+}

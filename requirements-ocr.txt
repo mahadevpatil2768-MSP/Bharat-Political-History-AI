@@ -1,0 +1,6 @@
+# Optional OCR support for scanned PDFs.
+# Also requires the Tesseract binary: https://github.com/UB-Mannheim/tesseract/wiki
+# Then set OCR_ENABLED=true (and TESSERACT_CMD if tesseract.exe is not on PATH) in .env.
+-r requirements.txt
+pytesseract>=0.3.10
+pillow>=10.0

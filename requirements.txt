@@ -1,0 +1,31 @@
+# Core runtime dependencies for Bharat Political History AI (Python 3.11).
+# Versions are lower bounds; see README for the tested set (pip freeze).
+
+# API
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pydantic>=2.6
+pydantic-settings>=2.2
+python-dotenv>=1.0
+
+# Ingestion / extraction
+pymupdf>=1.24
+beautifulsoup4>=4.12
+lxml>=5.0
+
+# Retrieval
+chromadb>=0.5
+sentence-transformers>=3.0
+rank-bm25>=0.2.2
+
+# LLM — Google Gemini API (official SDK). Free tier only; see README.
+google-genai>=2.34
+
+# UI
+streamlit>=1.35
+requests>=2.31
+
+# Testing
+pytest>=8.0
+httpx>=0.27

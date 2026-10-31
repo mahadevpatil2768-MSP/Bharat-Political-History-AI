@@ -1,0 +1,40 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Source documents: may be copyrighted or restricted — keep local only.
+# Sidecar metadata (*.meta.json) is also local; templates live in docs/.
+data/sources/**
+!data/sources/.gitkeep
+data/uploads/**
+!data/uploads/.gitkeep
+
+# Generated artifacts
+data/index/
+data/manifest/
+data/eval_results/
+logs/
+*.log
+
+# Model caches
+.cache/
+models/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
